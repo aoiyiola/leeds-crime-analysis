@@ -1,0 +1,26 @@
+# Versions the notebooks were last run and checked with (Python 3.13).
+
+# Data handling
+pandas==3.1.1
+numpy==2.5.4
+requests==2.34.2
+
+# Geospatial
+geopandas==1.2.0
+shapely==2.2.0
+pyproj==3.8.0
+
+# Statistics
+scikit-learn==1.9.1   # kernel density estimation
+scipy==1.18.1         # Spearman correlation
+libpysal==4.15.1      # spatial weights
+esda==2.10.0          # Getis-Ord Gi*
+
+# Visualisation
+matplotlib==3.11.2
+contextily==1.7.1     # basemap tiles
+folium==0.20.0        # interactive map
+
+# Running the notebooks (or open them in VS Code / JupyterLab)
+ipykernel==7.4.0
+nbconvert==7.17.2

@@ -14,8 +14,11 @@ Thumbs.db
 .vscode/
 .idea/
 
-# Generated data and models
+# Data (too large for git; see data/README.md to download)
+data/raw/*
 data/processed/*
+
+# Generated models
 results/models/
 *.pkl
 *.joblib
